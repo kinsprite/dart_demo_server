@@ -2,10 +2,6 @@ import 'package:json_annotation/json_annotation.dart';
 
 part 'dart_demo_server.g.dart';
 
-int calculate() {
-  return 6 * 7;
-}
-
 @JsonSerializable()
 class Book {
   int id;

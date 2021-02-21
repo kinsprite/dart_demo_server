@@ -1,10 +1,9 @@
 import 'dart:convert';
-
-import 'package:dart_demo_server/dart_demo_server.dart';
 import 'dart:io';
 
+import 'package:dart_demo_server/dart_demo_server.dart';
+
 Future main() async {
-// #docregion bind
   var server = await HttpServer.bind(
     InternetAddress.anyIPv4,
     18080,
