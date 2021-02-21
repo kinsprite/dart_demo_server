@@ -1,0 +1,9 @@
+###
+POST http://localhost:18080/?name=B-2&price=22.36
+
+###
+DELETE http://localhost:18080/?id=2
+
+
+###
+GET http://localhost:18080/
